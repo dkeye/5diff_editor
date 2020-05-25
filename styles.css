@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    width: 700px;
+    height: 1024px;
+}
+
+.image {
+    z-index: 1;
+    position: absolute;
+    touch-action: none;
+    user-select: none;
+}
+
+.rectangle {
+    border: 2px solid rgba(243, 0, 255, 1);
+    background-color: rgba(0, 0, 0, 0);
+    touch-action: none;
+    user-select: none;
+    z-index: 2;
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 60px;
+    color: #47ff47;
+    /*-webkit-transform: translate(0px, 0px);*/
+    /*transform: translate(0px, 0px);*/
+}
